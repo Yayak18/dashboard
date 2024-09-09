@@ -107,10 +107,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Ed Roh
+                  Jono Marjono
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  VP Fancy Admin
+                  Admin Keren
                 </Typography>
               </Box>
             </Box>
@@ -169,7 +169,7 @@ const Sidebar = () => {
               setSelected={setSelected}
             />
             <Item
-              title="Calendar"
+              title="Kalender"
               to="/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
