@@ -107,10 +107,10 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Jono Marjono
+                  KECAMATAN KREJENGAN
                 </Typography>
                 <Typography variant="h5" color={colors.greenAccent[500]}>
-                  Admin Keren
+                  Kabupaten Probolinggo
                 </Typography>
               </Box>
             </Box>
@@ -133,14 +133,14 @@ const Sidebar = () => {
               Data
             </Typography>
             <Item
-              title="Manage Team"
+              title="Kepegawaian"
               to="/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Contacts Information"
+              title="Daftar Desa"
               to="/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
